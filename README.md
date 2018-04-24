@@ -11,8 +11,10 @@ gunicorn -w4 -b 0:9528 server:app
 python rm_timer.py
 
 ```
-你也可以选择自己编译nginx,要用到nginx-fancyindex和nginx-upload-module:
---add-module=../ngx-fancyindex --add-module=../nginx_upload_module 
+你也可以选择自己编译nginx,要用到nginx-fancyindex和nginx-upload-module:   
+
+--add-module=../ngx-fancyindex --add-module=../nginx_upload_module    
+
 注意，环境是python2   
 server.py为mupload的处理后台     
 client.py为mupload的客户端(推荐编译后使用)    
