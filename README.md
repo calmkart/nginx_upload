@@ -18,4 +18,5 @@ server.py为mupload的处理后台
 client.py为mupload的客户端(推荐编译后使用)    
 rm_timer.py会定时清理上传文件(默认保留7天)     
 请配合nginx_upload_page使用:   
-https://github.com/calmkart/nginx_upload_page
+https://github.com/calmkart/nginx_upload_page        
+http://www.calmkart.com/?p=278       
